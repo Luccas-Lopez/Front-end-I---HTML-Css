@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto & display = swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 77px;
+    width: 1920px;
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+.container_header {
+    background-color: #1E1C21;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+    height: 100%;
+    width: 100%;
+}
+.posicao {
+    display: flex;
+    justify-content: space-between;
+}
+.container_header img {
+    width: 298px;
+    height: 29px;
+}
+.nav_header {
+    /* background-color: yellow; */
+    display: flex;
+    width: 790px;
+    justify-content: space-between;
+}
+.links {
+    font-family:'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.banner {
+    margin-top: 77px;
+    width: 1920px;
+    height: 602px;
+    background: linear-gradient(to right, #A5887E 2.08%, #B07D60 15.63%, #7C522C 28.13%, #845620 39.06%, #411505 60.42%, #000000 78.13%);
+    display: flex;
+    align-items: center;
+}
+.text_banner {
+    width: 526px;
+    height: 275px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text_banner h1 {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+    font-size: 70px;
+}
+.text_banner p {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+    font-size: 30px;
+}
+.text_banner a {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    width: 300px;
+    height: 70px;
+    background-color: #E05202;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.logo_games {
+    width: 1920px;
+    height: 151px;
+    background-color: black;
+}
+.container_games {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ligas {
+    width: 1920px;
+    height: 551px;
+    background-image: url(imagens/background_ligas.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.container_ligas {
+    height: 551px;
+    width: 1920px;
+    clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 12%); 
+    background: linear-gradient(to right,#000000 12.76%, #010101 31.46%, #1C1B1B 90.15%);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+h2 { 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.container_ligas p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+}
+.texto_ligas {
+/* background-color: yellow; */
+    height: 383px;
+    width: 531px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 360px;
+    justify-content: space-between;
+    position: relative;
+}
+.container_ligas img { 
+    position: absolute;
+    top:0px;
+    left: 950px;
+}
+.jogos {
+    height: 145px;
+    width: 1920px;
+    background-color: #000000;
+}
+.container_jogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.ao_vivo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 405px;
+}
+.ao_vivo span {
+    font-family:'Roboto', sans-serif; 
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    width: 69px;
+    word-break: normal;
+    height: 76px;
+    margin-right: 50px;
+}
+.jogos img {
+    width: 74px;
+    height: 69px;
+}
+.jogos p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+hr {
+    width: 2px;
+    height: 90px;
+    margin-left: 20px;
+}
+.em_breve {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 760px;
+}
+.em_breve span {
+    font-family:'Roboto', sans-serif; 
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    width: 69px;
+    word-break: normal;
+    height: 76px;
+    margin-right: 50px;
+}
+.em_breve p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: left;
+    color: white;
+}
+.noticias_proximos_jogos {
+    background-color: #2F2F2F;
+    height: 985px;
+    width: 1920px;
+}
+h3 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    width: 350px;
+}
+.texto {
+    width: 1196px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 360px;
+}
+.container_next_news {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: 360px;
+    height: 100%;
+}
+.container_noticias {
+    display: flex;
+    width: 810px;
+    height: 787px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box_noticias   {
+    width: 247px;
+    height: 359px;
+    background: linear-gradient(180deg, #2D2D2D 49.48%, #202020 85.94%, #000000 100%);
+    box-shadow: 8px 8px 5px black;
+}
+.box_noticias img {
+    width: 100%;
+    height: 161px;
+}
+.box_noticias span {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 5px;
+}
+.box_noticias p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.posição_inferior {
+    margin-top: 58px;
+}
+.prox_jogos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.prox_jogos span {
+
+}
+.box_next {
+    width: 350px;
+    height: 787px;
+    background: linear-gradient(180deg, #000000 6.15%, #2D2D2D 20.21%, #4F4E4E 47.29%, #565656 52.5%, #000000 96.25%);
+    box-shadow: 10px 7px 10px #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.next_games {
+    width: 252px;
+    height: 87px;
+}
+.next_games img {
+    width: 65px;
+    height: 64px;
+    margin: 0 18px;
+}
+.next_games span {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    color:white;
+}
+.next_games p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+footer {
+    height: 248px;
+    width: 1920px;
+}
+.container_footer{
+    height: 100%;
+    background-color: black;
+}
+.posicao_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.links_footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    justify-content: space-evenly;
+    width: 207px;
+}
+.links_footer span {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 26px;
+    font-style: bold;
+    font-weight: 900;
+    color: white;
+}
+.links_footer a {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+.paginas {
+    margin-left: 10px;
+}
+.container_footer img {
+    width: 300px;
+    height: 57px;
+    margin-right: 40px;
+}
+.social {
+    height: 100%;
+    width: 417px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 17px;
+    font-style: bolder;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-top: 20px;
+}
+.newsletter_cadastro {
+    width: 408px;
+    height: 39px;
+    display: flex;
+}
+.email_news {
+    width: 204px;
+    height: 39px;
+    border-right: none;
+}
+button {
+    width: 204px;
+    height: 39px;
+    background-color: #001F70;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    border-left: none;
+}
+.social span {
+    font-family:'Roboto', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.redes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.redes img {
+    width: 55px;
+    margin-right: 0;
+}
